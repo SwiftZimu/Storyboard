@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E43CE3F21EA0C86100CFB9BE /* ZMCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43CE3F11EA0C86100CFB9BE /* ZMCustomView.swift */; };
+		E43CE3F41EA0C87D00CFB9BE /* ZMCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43CE3F31EA0C87D00CFB9BE /* ZMCustomView.xib */; };
+		E43CE3FB1EA0D9A100CFB9BE /* ZMRoundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43CE3FA1EA0D9A100CFB9BE /* ZMRoundView.xib */; };
+		E43CE3FD1EA0DAAC00CFB9BE /* ZMRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43CE3FC1EA0DAAC00CFB9BE /* ZMRoundView.swift */; };
+		E43CE4021EA0DDAA00CFB9BE /* ZMRoundImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43CE4011EA0DDAA00CFB9BE /* ZMRoundImageView.xib */; };
+		E43CE4041EA0DE2700CFB9BE /* ZMRoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43CE4031EA0DE2700CFB9BE /* ZMRoundImageView.swift */; };
+		E45251831E9F6C6C00155D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45251821E9F6C6C00155D5F /* AppDelegate.swift */; };
+		E45251851E9F6C6C00155D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45251841E9F6C6C00155D5F /* ViewController.swift */; };
+		E45251881E9F6C6C00155D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45251861E9F6C6C00155D5F /* Main.storyboard */; };
+		E452518A1E9F6C6C00155D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45251891E9F6C6C00155D5F /* Assets.xcassets */; };
+		E452518D1E9F6C6C00155D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E452518B1E9F6C6C00155D5F /* LaunchScreen.storyboard */; };
+		E452519B1E9F713000155D5F /* ZMRoundButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E452519A1E9F713000155D5F /* ZMRoundButton.xib */; };
+		E452519F1E9F717300155D5F /* ZMRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E452519E1E9F717300155D5F /* ZMRoundButton.swift */; };
+		E45251A21E9F76E100155D5F /* ZMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45251A11E9F76E100155D5F /* ZMView.swift */; };
+		E45251AA1E9F838100155D5F /* ZMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45251A91E9F838100155D5F /* ZMViewController.swift */; };
+		E45252251EA0C31200155D5F /* ZMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45252241EA0C31200155D5F /* ZMExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E43CE3F11EA0C86100CFB9BE /* ZMCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMCustomView.swift; sourceTree = "<group>"; };
+		E43CE3F31EA0C87D00CFB9BE /* ZMCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMCustomView.xib; sourceTree = "<group>"; };
+		E43CE3FA1EA0D9A100CFB9BE /* ZMRoundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMRoundView.xib; sourceTree = "<group>"; };
+		E43CE3FC1EA0DAAC00CFB9BE /* ZMRoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMRoundView.swift; sourceTree = "<group>"; };
+		E43CE4011EA0DDAA00CFB9BE /* ZMRoundImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMRoundImageView.xib; sourceTree = "<group>"; };
+		E43CE4031EA0DE2700CFB9BE /* ZMRoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMRoundImageView.swift; sourceTree = "<group>"; };
+		E452517F1E9F6C6C00155D5F /* TTStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45251821E9F6C6C00155D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E45251841E9F6C6C00155D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E45251871E9F6C6C00155D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E45251891E9F6C6C00155D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E452518C1E9F6C6C00155D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E452518E1E9F6C6C00155D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E452519A1E9F713000155D5F /* ZMRoundButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMRoundButton.xib; sourceTree = "<group>"; };
+		E452519E1E9F717300155D5F /* ZMRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMRoundButton.swift; sourceTree = "<group>"; };
+		E45251A11E9F76E100155D5F /* ZMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMView.swift; sourceTree = "<group>"; };
+		E45251A91E9F838100155D5F /* ZMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMViewController.swift; sourceTree = "<group>"; };
+		E45252241EA0C31200155D5F /* ZMExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E452517C1E9F6C6C00155D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E43CE3F01EA0C84A00CFB9BE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E43CE3F11EA0C86100CFB9BE /* ZMCustomView.swift */,
+				E43CE3F31EA0C87D00CFB9BE /* ZMCustomView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E43CE3F51EA0D87100CFB9BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E43CE3FA1EA0D9A100CFB9BE /* ZMRoundView.xib */,
+				E43CE3FC1EA0DAAC00CFB9BE /* ZMRoundView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E43CE3FE1EA0DD0900CFB9BE /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E43CE3FF1EA0DD7900CFB9BE /* RoundImageView */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		E43CE3FF1EA0DD7900CFB9BE /* RoundImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E43CE4011EA0DDAA00CFB9BE /* ZMRoundImageView.xib */,
+				E43CE4031EA0DE2700CFB9BE /* ZMRoundImageView.swift */,
+			);
+			path = RoundImageView;
+			sourceTree = "<group>";
+		};
+		E45251761E9F6C6C00155D5F = {
+			isa = PBXGroup;
+			children = (
+				E45251811E9F6C6C00155D5F /* TTStoryboard */,
+				E45251801E9F6C6C00155D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45251801E9F6C6C00155D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E452517F1E9F6C6C00155D5F /* TTStoryboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45251811E9F6C6C00155D5F /* TTStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				E45251961E9F6E2300155D5F /* View */,
+				E45251951E9F6E1800155D5F /* Controller */,
+				E45251941E9F6DF400155D5F /* Utility */,
+				E45251821E9F6C6C00155D5F /* AppDelegate.swift */,
+				E45251841E9F6C6C00155D5F /* ViewController.swift */,
+				E45251861E9F6C6C00155D5F /* Main.storyboard */,
+				E45251891E9F6C6C00155D5F /* Assets.xcassets */,
+				E452518B1E9F6C6C00155D5F /* LaunchScreen.storyboard */,
+				E452518E1E9F6C6C00155D5F /* Info.plist */,
+			);
+			path = TTStoryboard;
+			sourceTree = "<group>";
+		};
+		E45251941E9F6DF400155D5F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E45251C51EA081C500155D5F /* Extension */,
+				E45251A81E9F836700155D5F /* ZMViewController */,
+				E45251A01E9F76D300155D5F /* ZMView */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E45251951E9F6E1800155D5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E45251961E9F6E2300155D5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E43CE3FE1EA0DD0900CFB9BE /* ImageView */,
+				E43CE3F51EA0D87100CFB9BE /* View */,
+				E43CE3F01EA0C84A00CFB9BE /* CustomView */,
+				E45251971E9F6E3600155D5F /* Button */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E45251971E9F6E3600155D5F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E45251991E9F710E00155D5F /* RoundButton */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E45251991E9F710E00155D5F /* RoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				E452519A1E9F713000155D5F /* ZMRoundButton.xib */,
+				E452519E1E9F717300155D5F /* ZMRoundButton.swift */,
+			);
+			path = RoundButton;
+			sourceTree = "<group>";
+		};
+		E45251A01E9F76D300155D5F /* ZMView */ = {
+			isa = PBXGroup;
+			children = (
+				E45251A11E9F76E100155D5F /* ZMView.swift */,
+			);
+			path = ZMView;
+			sourceTree = "<group>";
+		};
+		E45251A81E9F836700155D5F /* ZMViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E45251A91E9F838100155D5F /* ZMViewController.swift */,
+			);
+			path = ZMViewController;
+			sourceTree = "<group>";
+		};
+		E45251C51EA081C500155D5F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E45252241EA0C31200155D5F /* ZMExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E452517E1E9F6C6C00155D5F /* TTStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45251911E9F6C6C00155D5F /* Build configuration list for PBXNativeTarget "TTStoryboard" */;
+			buildPhases = (
+				E452517B1E9F6C6C00155D5F /* Sources */,
+				E452517C1E9F6C6C00155D5F /* Frameworks */,
+				E452517D1E9F6C6C00155D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTStoryboard;
+			productName = TTStoryboard;
+			productReference = E452517F1E9F6C6C00155D5F /* TTStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45251771E9F6C6C00155D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = swiftlang;
+				TargetAttributes = {
+					E452517E1E9F6C6C00155D5F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E452517A1E9F6C6C00155D5F /* Build configuration list for PBXProject "TTStoryboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45251761E9F6C6C00155D5F;
+			productRefGroup = E45251801E9F6C6C00155D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E452517E1E9F6C6C00155D5F /* TTStoryboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E452517D1E9F6C6C00155D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E452518D1E9F6C6C00155D5F /* LaunchScreen.storyboard in Resources */,
+				E43CE3F41EA0C87D00CFB9BE /* ZMCustomView.xib in Resources */,
+				E43CE4021EA0DDAA00CFB9BE /* ZMRoundImageView.xib in Resources */,
+				E43CE3FB1EA0D9A100CFB9BE /* ZMRoundView.xib in Resources */,
+				E452519B1E9F713000155D5F /* ZMRoundButton.xib in Resources */,
+				E452518A1E9F6C6C00155D5F /* Assets.xcassets in Resources */,
+				E45251881E9F6C6C00155D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E452517B1E9F6C6C00155D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43CE3FD1EA0DAAC00CFB9BE /* ZMRoundView.swift in Sources */,
+				E45252251EA0C31200155D5F /* ZMExtension.swift in Sources */,
+				E43CE4041EA0DE2700CFB9BE /* ZMRoundImageView.swift in Sources */,
+				E452519F1E9F717300155D5F /* ZMRoundButton.swift in Sources */,
+				E43CE3F21EA0C86100CFB9BE /* ZMCustomView.swift in Sources */,
+				E45251AA1E9F838100155D5F /* ZMViewController.swift in Sources */,
+				E45251A21E9F76E100155D5F /* ZMView.swift in Sources */,
+				E45251851E9F6C6C00155D5F /* ViewController.swift in Sources */,
+				E45251831E9F6C6C00155D5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E45251861E9F6C6C00155D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45251871E9F6C6C00155D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E452518B1E9F6C6C00155D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E452518C1E9F6C6C00155D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E452518F1E9F6C6C00155D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E45251901E9F6C6C00155D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45251921E9F6C6C00155D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTStoryboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlang.TTStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E45251931E9F6C6C00155D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTStoryboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlang.TTStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E452517A1E9F6C6C00155D5F /* Build configuration list for PBXProject "TTStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E452518F1E9F6C6C00155D5F /* Debug */,
+				E45251901E9F6C6C00155D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45251911E9F6C6C00155D5F /* Build configuration list for PBXNativeTarget "TTStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45251921E9F6C6C00155D5F /* Debug */,
+				E45251931E9F6C6C00155D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45251771E9F6C6C00155D5F /* Project object */;
+}
